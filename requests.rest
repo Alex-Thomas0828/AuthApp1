@@ -1,0 +1,9 @@
+GET http://localhost:3000/generateToken
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Jim"
+    /*replace with proper username and password*/
+}
